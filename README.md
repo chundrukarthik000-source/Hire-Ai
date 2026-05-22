@@ -1,6 +1,7 @@
 # AURA AI Hiring Agent 🤖💼
 
-🌐 **Live Application:** [https://hiring-agent-p7-2026.web.app/](https://hiring-agent-p7-2026.web.app/)
+- 🌐 **Live Application:** [https://hiring-agent-p7-2026.web.app/](https://hiring-agent-p7-2026.web.app/)
+- ⚙️ **Live Backend API:** [https://hire-ai-vvkj.onrender.com/](https://hire-ai-vvkj.onrender.com/)
 
 AURA is a premium, full-stack AI-powered recruitment and resume screening application. It helps hiring managers automate resume assessment, rank candidates based on customized job requirements, and manage the candidate pipeline from a unified, modern administrative dashboard.
 
