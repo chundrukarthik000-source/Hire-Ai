@@ -1,0 +1,149 @@
+{
+  "users": {
+    "mock-candidate-uid": {
+      "uid": "mock-candidate-uid",
+      "email": "candidate@hiringagent.com",
+      "displayName": "John Doe",
+      "role": "candidate",
+      "createdAt": "2026-05-22T13:20:00.788232"
+    },
+    "mock-admin-uid": {
+      "uid": "mock-admin-uid",
+      "email": "admin@hiringagent.com",
+      "displayName": "ch karthik",
+      "role": "admin",
+      "createdAt": "2026-05-22T14:33:19.791857"
+    },
+    "candidate-123": {
+      "uid": "candidate-123",
+      "email": "alice@hiringagent.com",
+      "displayName": "Alice Smith",
+      "role": "candidate",
+      "createdAt": "2026-05-22T14:33:19.735068"
+    }
+  },
+  "jobs": {
+    "job-react-1": {
+      "id": "job-react-1",
+      "title": "Senior React Developer",
+      "description": "We are looking for a Senior Frontend Engineer proficient in React, Tailwind CSS, and state management libraries (Redux/Zustand) to construct high-performance futuristic user interfaces. Deployment experience with Vercel or AWS is a plus.",
+      "required_skills": [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "Redux",
+        "Vite"
+      ],
+      "experience_required": "3+ years",
+      "deadline": "2026-06-30",
+      "status": "open",
+      "created_at": "2026-05-22T13:20:00.788260"
+    },
+    "job-python-2": {
+      "id": "job-python-2",
+      "title": "Backend Python Developer",
+      "description": "Join our backend team to scale high-throughput FastAPI microservices. The candidate must be skilled in Python, SQL/NoSQL databases, asynchronous programming, Docker, and REST API development.",
+      "required_skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "REST API"
+      ],
+      "experience_required": "2+ years",
+      "deadline": "2026-07-15",
+      "status": "open",
+      "created_at": "2026-05-22T13:20:00.788262"
+    },
+    "job-ai-3": {
+      "id": "job-ai-3",
+      "title": "AI Integration Engineer",
+      "description": "We are seeking an AI Engineer to integrate Large Language Models (LLMs) like Gemini, Claude, and GPT-4 into client applications. Experience in prompt engineering, vector databases, and Python backend frameworks is highly required.",
+      "required_skills": [
+        "Python",
+        "Gemini API",
+        "LLMs",
+        "Vector DB",
+        "Prompt Engineering"
+      ],
+      "experience_required": "1+ years",
+      "deadline": "2026-06-15",
+      "status": "open",
+      "created_at": "2026-05-22T13:20:00.788264"
+    }
+  },
+  "applications": {
+    "33d8f323-cc9a-4f14-bc42-85bcf8860538": {
+      "jobId": "job-react-1",
+      "jobTitle": "Senior React Developer",
+      "userId": "candidate-123",
+      "candidateName": "Alice Smith",
+      "candidateEmail": "alice@hiringagent.com",
+      "candidatePhone": "+1 (555) 019-2834",
+      "college": "State Technological Institute",
+      "experience": "2 years as Frontend Engineer specializing in high-performance web systems and dashboard components.",
+      "skills": [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "Vite",
+        "Redux"
+      ],
+      "resumeUrl": "/api/applications/resume/download/fc19c545-3d82-4352-a17a-0d862853f0c8_alice_resume.pdf",
+      "status": "shortlisted",
+      "aiAnalysis": {
+        "resumeScore": 75,
+        "skillsMatch": 100,
+        "strengths": [
+          "Demonstrated proficiency in core skills: react, javascript, tailwind css"
+        ],
+        "weaknesses": [
+          "Lacks detailed project descriptions showing applied knowledge",
+          "Limited commercial or industrial experience listed"
+        ],
+        "reasoning": "Simulated evaluation: Matched 5/5 required skills. Skills score: 50/50, Projects: 10/20, Experience: 10/20, Education: 5/10."
+      },
+      "id": "33d8f323-cc9a-4f14-bc42-85bcf8860538",
+      "appliedAt": "2026-05-22T13:21:51.048593"
+    },
+    "ad1714a1-c046-4200-967b-2781abd930c1": {
+      "jobId": "job-react-1",
+      "jobTitle": "Senior React Developer",
+      "userId": "candidate-123",
+      "candidateName": "Alice Smith",
+      "candidateEmail": "alice@hiringagent.com",
+      "candidatePhone": "+1 (555) 019-2834",
+      "college": "State Technological Institute",
+      "experience": "2 years as Frontend Engineer specializing in high-performance web systems and dashboard components.",
+      "skills": [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "Vite",
+        "Redux"
+      ],
+      "resumeUrl": "/api/applications/resume/download/f29b4714-79c0-44d9-af43-edfb37f6cf65_alice_resume.pdf",
+      "status": "shortlisted",
+      "aiAnalysis": {
+        "resumeScore": 75,
+        "skillsMatch": 100,
+        "strengths": [
+          "Demonstrated proficiency in core skills: react, javascript, tailwind css"
+        ],
+        "weaknesses": [
+          "Lacks detailed project descriptions showing applied knowledge",
+          "Limited commercial or industrial experience listed"
+        ],
+        "reasoning": "Simulated evaluation: Matched 5/5 required skills. Skills score: 50/50, Projects: 10/20, Experience: 10/20, Education: 5/10."
+      },
+      "id": "ad1714a1-c046-4200-967b-2781abd930c1",
+      "appliedAt": "2026-05-22T14:33:19.763855"
+    }
+  },
+  "admins": {
+    "admin@hiringagent.com": {
+      "email": "admin@hiringagent.com",
+      "role": "admin"
+    }
+  }
+}

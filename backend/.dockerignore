@@ -1,0 +1,36 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Local data and mock storage (not needed in container)
+data/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Sensitive credentials — NEVER bake into the image
+service-account.json
+.env
+.env.*
+
+# Development and test files
+test_*.py
+run_model_demo.py
+create_admin_user.py
+update_db_salaries.py
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
